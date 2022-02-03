@@ -65,10 +65,10 @@ $ npx sequelize-cli migration:generate --name TodoTableCreate
 ```
 
 Untuk membuat shortcut command, anda dapat melakukan registrasi di file package.json dan masukkan code pada properti ``script``
-``"migration:generate": "rimraf dist && npx sequelize-cli migration:generate"``
+``"migration:generate": "nest build && npx sequelize-cli migration:generate --name"``
 Sehingga perintah dari 
 ```bash 
-$ npx sequelize-cli migration:generate --name TodoTableCreate
+$ npx sequelize-cli migration:generate TodoTableCreate
 ```
 menjadi 
 ```bash 
