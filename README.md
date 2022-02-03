@@ -73,10 +73,10 @@ $ npx sequelize-cli migration:generate TodoTableCreate
 menjadi 
 ```bash 
 # gunakan yarn
-$ yarn migration:generate --name TodoTableCreate
+$ yarn migration:generate TodoTableCreate
 
 # gunakan npm
-$ yarn run migration:generate --name TodoTableCreate
+$ yarn run migration:generate TodoTableCreate
 ```
 
 #### Make DB Table menggunakan migration
